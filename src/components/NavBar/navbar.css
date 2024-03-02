@@ -1,0 +1,40 @@
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  z-index: 3;
+}
+.nav-link:hover {
+  color: #ec3b42 !important;
+}
+.desktopMenuItemList {
+  cursor: pointer;
+  color: #ec3b42;
+}
+.desktopMenuItemList:hover {
+  color: #ec3b42;
+  /* padding-bottom: 0.5rem; */
+  border-bottom: 3px solid #ec3b42;
+}
+
+.desktopButton {
+  background-color: #ff3377;
+  border: none;
+  color: white;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.desktopButton:hover {
+  background-color: #ec3b42;
+}
