@@ -1,17 +1,19 @@
 import React from "react";
 import "./navbar.css";
 import logofavicon from "../../assets/logofavicon.png";
+import Logo from "../Logo/logo";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg container d-flex m-lg-3 m-md-2 m-sm-1">
       <a className="navbar-brand" href="#">
-        <img
+        {/* <img
           src={logofavicon}
           alt="logo"
           className="logo navbar-brand img-fluid"
-        />
+        /> */}
+        <Logo />
       </a>
       <button
         className="navbar-toggler"

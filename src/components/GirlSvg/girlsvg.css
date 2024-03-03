@@ -1,0 +1,62 @@
+.bg {
+  top: -4rem;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+@keyframes moveLaptop {
+  from {
+    transform: translateY(0); /* Initial position */
+  }
+  to {
+    transform: translateY(10px); /* Final position */
+  }
+}
+
+@keyframes moveCircle {
+  from {
+    transform: translateX(0); /* Initial position */
+  }
+  to {
+    transform: translateX(10px); /* Final position */
+  }
+}
+
+@keyframes leafAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  50% {
+    transform: translateX(20px) rotate(-45deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+#leaves {
+  animation: moveLaptop 2s infinite alternate;
+}
+
+@keyframes cupAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#cup {
+  animation: moveLaptop 2s infinite alternate;
+}
+
+#laptop {
+  animation: moveLaptop 2s infinite alternate;
+}
+#right-leaves {
+  animation: moveLaptop 2s infinite alternate;
+}
