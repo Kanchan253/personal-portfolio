@@ -1,12 +1,13 @@
 #intro {
   height: calc(100vh - 4rem);
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
   display: flex;
   /* justify-content: center;  */
   align-items: center;
+  /* background-color: #FFE6E6  ; */
 }
 
 .introContent {
@@ -17,7 +18,7 @@
   left: 20%;
   flex-direction: column;
   justify-content: center;
-  /* max-width: calc(50% - 2rem); Adjusted to leave space for padding */
+  /* max-width: calc(50% - 2rem); */
 }
 
 .hello {
@@ -42,6 +43,7 @@
 
 .introName {
   color: #ec3b42;
+  /* animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; */
 }
 
 .introPara {
@@ -78,19 +80,45 @@
 }
 @keyframes leafAnimation {
   0% {
-    /* Initial styles */
     transform: translateX(0) rotate(0);
   }
   50% {
-    /* Midway styles */
     transform: translateX(20px) rotate(45deg);
   }
   100% {
-    /* Final styles */
     transform: translateX(0) rotate(0);
   }
 }
 
 #leaves {
-  animation: leafAnimation 2s infinite; /* Apply animation to the leaves path */
+  animation: leafAnimation 2s infinite;
+}
+.typewriter {
+  overflow-x: hidden;
+  border-right: 0.1em solid #ec3b42 !important;
+  /* white-space: nowrap;
+  margin: 0 auto; */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite !important;
+  font-family: Poppins, sans-serif;
+  display: inline-block;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  0%,
+  49.9% {
+    border-color: transparent;
+  }
+  50%,
+  100% {
+    border-color: #ec3b42;
+  }
 }

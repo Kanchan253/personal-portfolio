@@ -1,8 +1,9 @@
 .navbar {
   height: 5rem;
-  width: 100vw;
-  max-width: 75rem;
+  width: 100%;
+  max-width: auto !important;
   z-index: 3;
+  background-color: #E2BFB3;
 }
 .nav-link:hover {
   color: #ec3b42 !important;

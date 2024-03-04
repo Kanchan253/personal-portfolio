@@ -1,0 +1,45 @@
+a {
+  text-decoration: none !important;
+}
+.about {
+    background: linear-gradient(to bottom, #F7DED0, #FFE0B2);
+    padding: 4rem 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .about-details {
+    text-align: center;
+  }
+  
+  .about-heading h1 {
+    font-size: 2.5rem;
+    color: #ec3b42;
+  }
+  
+  .about-heading h6 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .about-details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #ec3b42;
+  }
+  
