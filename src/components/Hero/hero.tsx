@@ -11,24 +11,24 @@ const Hero = () => {
       <div className="introContent">
         <motion.span
           className="hello"
-          initial={{ opacity: 0, y: -50 }} // Initial animation values
-          animate={{ opacity: 1, y: 0 }} // Animation to apply when component mounts
-          transition={{ duration: 0.5, delay: 0.2 }} // Transition duration and delay
+          initial={{ opacity: 0, y: -50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.5, delay: 0.2 }} 
         >
           Hello,
         </motion.span>
         <motion.span
           className="introText"
-          initial={{ opacity: 0, y: -50 }} // Initial animation values
-          animate={{ opacity: 1, y: 0 }} // Animation to apply when component mounts
-          transition={{ duration: 0.5, delay: 0.4 }} // Transition duration and delay
+          initial={{ opacity: 0, y: -50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.5, delay: 0.4 }} 
         >
           I'm{" "}
           <motion.span
             className="introName "
-            initial={{ opacity: 0 }} // Initial animation values
-            animate={{ opacity: 1 }} // Animation to apply when component mounts
-            transition={{ duration: 0.5, delay: 0.6 }} // Transition duration and delay
+            initial={{ opacity: 0 }} 
+            animate={{ opacity: 1 }} 
+            transition={{ duration: 0.5, delay: 0.6 }} 
           >
             Kanchan Daryanani
           </motion.span>
@@ -37,9 +37,9 @@ const Hero = () => {
         </motion.span>
         <motion.p
           className="introPara"
-          initial={{ opacity: 0, y: -50 }} // Initial animation values
-          animate={{ opacity: 1, y: 0 }} // Animation to apply when component mounts
-          transition={{ duration: 0.5, delay: 0.8 }} // Transition duration and delay
+          initial={{ opacity: 0, y: -50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.5, delay: 0.8 }} 
         >
           I am a skilled full stack developer and designer with experience in
           both frontend and backend frameworks!
@@ -50,10 +50,10 @@ const Hero = () => {
         >
           <motion.button
             className="btn"
-            whileHover={{ scale: 1.1 }} // Animation on hover
-            initial={{ opacity: 0 }} // Initial animation values
-            animate={{ opacity: 1 }} // Animation to apply when component mounts
-            transition={{ duration: 0.5, delay: 1 }} // Transition duration and delay
+            whileHover={{ scale: 1.1 }}
+            initial={{ opacity: 0 }} 
+            animate={{ opacity: 1 }} 
+            transition={{ duration: 0.5, delay: 1 }} 
           >
             Resume
           </motion.button>
@@ -62,7 +62,7 @@ const Hero = () => {
       <motion.div
         className="floatingObjects"
         animate={{
-          y: [0, -10, 0], // Float objects up and down
+          y: [0, -10, 0], 
         }}
         transition={{
           duration: 2,

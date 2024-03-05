@@ -11,9 +11,9 @@ const Logo: React.FC = () => {
     viewBox="0 0 128 128"
     version="1.1"
     className="logo"
-    initial={{ rotate: 0 }} // Initial animation values
-    animate={{ rotate: 360 }} // Animation to apply when component mounts
-    transition={{ duration: 4, repeat: Infinity, ease: "linear" }} // Transition duration and repeat
+    initial={{ rotate: 0 }} 
+    animate={{ rotate: 360 }} 
+    transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
   >
       <path d="" stroke="none" fill="#f03c44" fill-rule="evenodd" />
       <path

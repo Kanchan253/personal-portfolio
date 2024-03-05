@@ -9,14 +9,14 @@ const NavBar = () => {
   return (
     <motion.nav
       className="navbar sticky-top navbar-expand-lg"
-      initial={{ opacity: 0, y: -50 }} // Initial animation values
-      animate={{ opacity: 1, y: 0 }} // Animation to apply when component mounts
-      transition={{ duration: 0.5 }} // Transition duration
+      initial={{ opacity: 0, y: -50 }} 
+      animate={{ opacity: 1, y: 0 }} 
+      transition={{ duration: 0.5 }} 
     >
       <motion.a
         className="navbar-brand"
         href="#"
-        whileHover={{ scale: 1.1 }} // Animation on hover
+        whileHover={{ scale: 1.1 }} 
       >
         {/* <img
           src={logofavicon}
@@ -92,7 +92,7 @@ const NavBar = () => {
       </div>
       <motion.button
         className="desktopButton"
-        whileHover={{ scale: 1.1 }} // Animation on hover
+        whileHover={{ scale: 1.1 }} 
       >
         Contact Me
       </motion.button>
